@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
-        android:text="Welcome"
+        android:text="Forgot your Password?"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -43,83 +43,41 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
-        android:text="Login to your account"
+        android:text="Don’t Worry it happens. Please Enter an email associated with your account"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/login_usuario"
-        android:layout_width="250dp"
+        android:id="@+id/recuperar_senha"
+        android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_marginTop="70dp"
         android:background="@drawable/caixa_texto_borda"
-        android:hint="Username"
+        android:drawableLeft="@drawable/email"
         android:gravity="center"
-        android:drawableLeft="@drawable/usuario"
+        android:hint="EMAIL"
         android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <EditText
-        android:id="@+id/login_senha"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/caixa_texto_borda"
-        android:gravity="center"
-        android:hint="Password"
-        android:drawableLeft="@drawable/locker"
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="@+id/login_usuario"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/login_usuario"
-        app:layout_constraintTop_toBottomOf="@+id/login_usuario" />
-
-    <TextView
-        android:id="@+id/textButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:clickable="true"
-        android:focusable="true"
-        android:text="Forgot Password?"
-        android:textColor="#007AFF"
-        app:layout_constraintEnd_toEndOf="@+id/login_senha"
-        app:layout_constraintTop_toBottomOf="@+id/login_senha" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.1" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/subescrever_senha"
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:text="Login"
         android:background="@drawable/botao_arrendodado"
+        android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textButton" />
-
-    <TextView
-        android:id="@+id/link_create"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?android:attr/selectableItemBackground"
-        android:clickable="true"
-        android:focusable="true"
-        android:text="Already have an Account? Sign Up"
-        android:textColor="#007AFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintTop_toBottomOf="@+id/recuperar_senha" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

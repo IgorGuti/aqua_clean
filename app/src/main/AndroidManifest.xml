@@ -23,9 +23,13 @@
         </activity>
 
         <activity android:name=".pagina2Activity">
-
         </activity>
 
+        <activity android:name=".pagina3">
+        </activity>
+
+        <activity android:name=".pagina4">
+        </activity>
 
     </application>
 </manifest>
