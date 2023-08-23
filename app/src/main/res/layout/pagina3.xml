@@ -89,7 +89,7 @@
         android:drawableLeft="@drawable/locker"
         android:gravity="center"
         android:hint="PASSWORD"
-        android:inputType="text"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/create_email"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/create_email"
@@ -104,7 +104,7 @@
         android:drawableLeft="@drawable/locker"
         android:gravity="center"
         android:hint="CONFIRM PASSWORD"
-        android:inputType="text"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/create_senha"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/create_senha"
@@ -132,5 +132,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/link_login_volta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Already have an Account? Login"
+        android:textColor="#007AFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_login"
+        app:layout_constraintVertical_bias="0.1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

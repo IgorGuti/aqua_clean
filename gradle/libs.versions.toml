@@ -12,6 +12,7 @@ androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version = "18.1.0" }
 
 [plugins]
 com-android-application = { id = "com.android.application", version.ref = "agp" }
